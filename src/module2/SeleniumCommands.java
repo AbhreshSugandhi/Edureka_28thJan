@@ -6,10 +6,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
-/*
- * Created by Abhresh
- */
-
 public class SeleniumCommands {
 
 	public static void main(String[] args) {
