@@ -20,7 +20,7 @@ public class Dependency {
 		driver.get("http://newtours.demoaut.com/");
 	}
 
-	@Test(dependsOnMethods = "OpenApp")
+	@Test(dependsOnMethods = "OpenApp", priority = 3)
 	public void Login() throws InterruptedException {
 		// Enter UserID
 		driver.findElement(By.name("userName")).sendKeys("tutorial");
