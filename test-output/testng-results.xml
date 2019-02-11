@@ -1,131 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Parameterization" duration-ms="19220" started-at="2019-02-08T16:39:52Z" finished-at="2019-02-08T16:40:11Z">
+  <suite name="Main Test Suite" duration-ms="18944" started-at="2019-02-11T15:46:42Z" finished-at="2019-02-11T15:47:01Z">
     <groups>
     </groups>
-    <test name="IE" duration-ms="2483" started-at="2019-02-08T16:39:52Z" finished-at="2019-02-08T16:39:54Z">
-      <class name="module6.Scenario3">
-        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:module6.Scenario3@7a3d45bd]" name="openBrowser" is-config="true" duration-ms="2408" started-at="2019-02-08T16:39:52Z" finished-at="2019-02-08T16:39:54Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[IE]]>
-              </value>
-            </param>
-          </params>
+    <test name="TestNG Grid1" duration-ms="18829" started-at="2019-02-11T15:46:42Z" finished-at="2019-02-11T15:47:01Z">
+      <class name="module7.GridExampleTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:module7.GridExampleTest@7b69c6ba]" name="setUp" is-config="true" duration-ms="7685" started-at="2019-02-11T15:46:42Z" finished-at="2019-02-11T15:46:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="FAIL" signature="login_TestCase()[pri:0, instance:module6.Scenario3@7a3d45bd]" name="login_TestCase" duration-ms="8" started-at="2019-02-08T16:39:54Z" finished-at="2019-02-08T16:39:54Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at module6.Scenario3.login_TestCase(Scenario3.java:45)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGooglePageTitle()[pri:0, instance:module7.GridExampleTest@7b69c6ba]" name="testGooglePageTitle" duration-ms="9445" started-at="2019-02-11T15:46:50Z" finished-at="2019-02-11T15:46:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login_TestCase -->
-        <test-method status="FAIL" signature="closeBrowser()[pri:0, instance:module6.Scenario3@7a3d45bd]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2019-02-08T16:39:54Z" finished-at="2019-02-08T16:39:54Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at module6.Scenario3.closeBrowser(Scenario3.java:51)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.afterRun(TestRunner.java:725)
-at org.testng.TestRunner.run(TestRunner.java:509)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        </test-method> <!-- testGooglePageTitle -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:module7.GridExampleTest@7b69c6ba]" name="closeBrowser" is-config="true" duration-ms="1597" started-at="2019-02-11T15:46:59Z" finished-at="2019-02-11T15:47:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- module6.Scenario3 -->
-    </test> <!-- IE -->
-    <test name="Chrome" duration-ms="10933" started-at="2019-02-08T16:39:52Z" finished-at="2019-02-08T16:40:03Z">
-      <class name="module6.Scenario3">
-        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:module6.Scenario3@3e57cd70]" name="openBrowser" is-config="true" duration-ms="5619" started-at="2019-02-08T16:39:52Z" finished-at="2019-02-08T16:39:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
+      </class> <!-- module7.GridExampleTest -->
+    </test> <!-- TestNG Grid1 -->
+    <test name="TestNG Grid" duration-ms="18943" started-at="2019-02-11T15:46:42Z" finished-at="2019-02-11T15:47:01Z">
+      <class name="module7.GridExampleTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:module7.GridExampleTest@36b4cef0]" name="setUp" is-config="true" duration-ms="7660" started-at="2019-02-11T15:46:42Z" finished-at="2019-02-11T15:46:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="login_TestCase()[pri:0, instance:module6.Scenario3@3e57cd70]" name="login_TestCase" duration-ms="3236" started-at="2019-02-08T16:39:57Z" finished-at="2019-02-08T16:40:01Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGooglePageTitle()[pri:0, instance:module7.GridExampleTest@36b4cef0]" name="testGooglePageTitle" duration-ms="8860" started-at="2019-02-11T15:46:50Z" finished-at="2019-02-11T15:46:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login_TestCase -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:module6.Scenario3@3e57cd70]" name="closeBrowser" is-config="true" duration-ms="2069" started-at="2019-02-08T16:40:01Z" finished-at="2019-02-08T16:40:03Z">
+        </test-method> <!-- testGooglePageTitle -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:module7.GridExampleTest@36b4cef0]" name="closeBrowser" is-config="true" duration-ms="2297" started-at="2019-02-11T15:46:59Z" finished-at="2019-02-11T15:47:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- module6.Scenario3 -->
-    </test> <!-- Chrome -->
-    <test name="Firefox" duration-ms="19220" started-at="2019-02-08T16:39:52Z" finished-at="2019-02-08T16:40:11Z">
-      <class name="module6.Scenario3">
-        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:module6.Scenario3@3aeaafa6]" name="openBrowser" is-config="true" duration-ms="11980" started-at="2019-02-08T16:39:52Z" finished-at="2019-02-08T16:40:04Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="login_TestCase()[pri:0, instance:module6.Scenario3@3aeaafa6]" name="login_TestCase" duration-ms="4925" started-at="2019-02-08T16:40:04Z" finished-at="2019-02-08T16:40:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login_TestCase -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:module6.Scenario3@3aeaafa6]" name="closeBrowser" is-config="true" duration-ms="2300" started-at="2019-02-08T16:40:09Z" finished-at="2019-02-08T16:40:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- module6.Scenario3 -->
-    </test> <!-- Firefox -->
-  </suite> <!-- Parameterization -->
+      </class> <!-- module7.GridExampleTest -->
+    </test> <!-- TestNG Grid -->
+  </suite> <!-- Main Test Suite -->
 </testng-results>
