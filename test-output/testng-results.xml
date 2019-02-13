@@ -1,41 +1,231 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Main Test Suite" duration-ms="18944" started-at="2019-02-11T15:46:42Z" finished-at="2019-02-11T15:47:01Z">
+  <suite name="Default suite" duration-ms="67160" started-at="2019-02-13T16:59:03Z" finished-at="2019-02-13T17:00:10Z">
     <groups>
     </groups>
-    <test name="TestNG Grid1" duration-ms="18829" started-at="2019-02-11T15:46:42Z" finished-at="2019-02-11T15:47:01Z">
-      <class name="module7.GridExampleTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:module7.GridExampleTest@7b69c6ba]" name="setUp" is-config="true" duration-ms="7685" started-at="2019-02-11T15:46:42Z" finished-at="2019-02-11T15:46:50Z">
+    <test name="Default test" duration-ms="67160" started-at="2019-02-13T16:59:03Z" finished-at="2019-02-13T17:00:10Z">
+      <class name="module9.DDT">
+        <test-method status="PASS" signature="OpenApp()[pri:0, instance:module9.DDT@44c8afef]" name="OpenApp" is-config="true" duration-ms="9196" started-at="2019-02-13T16:59:03Z" finished-at="2019-02-13T16:59:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testGooglePageTitle()[pri:0, instance:module7.GridExampleTest@7b69c6ba]" name="testGooglePageTitle" duration-ms="9445" started-at="2019-02-11T15:46:50Z" finished-at="2019-02-11T15:46:59Z">
+        </test-method> <!-- OpenApp -->
+        <test-method status="PASS" signature="TestAUT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT@44c8afef]" name="TestAUT" duration-ms="5852" started-at="2019-02-13T16:59:13Z" data-provider="TD" finished-at="2019-02-13T16:59:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jain]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gujrat]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGooglePageTitle -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:module7.GridExampleTest@7b69c6ba]" name="closeBrowser" is-config="true" duration-ms="1597" started-at="2019-02-11T15:46:59Z" finished-at="2019-02-11T15:47:01Z">
+        </test-method> <!-- TestAUT -->
+        <test-method status="PASS" signature="TestAUT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT@44c8afef]" name="TestAUT" duration-ms="5618" started-at="2019-02-13T16:59:19Z" data-provider="TD" finished-at="2019-02-13T16:59:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Joseph]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Goa]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- module7.GridExampleTest -->
-    </test> <!-- TestNG Grid1 -->
-    <test name="TestNG Grid" duration-ms="18943" started-at="2019-02-11T15:46:42Z" finished-at="2019-02-11T15:47:01Z">
-      <class name="module7.GridExampleTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:module7.GridExampleTest@36b4cef0]" name="setUp" is-config="true" duration-ms="7660" started-at="2019-02-11T15:46:42Z" finished-at="2019-02-11T15:46:50Z">
+        </test-method> <!-- TestAUT -->
+        <test-method status="PASS" signature="TestAUT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT@44c8afef]" name="TestAUT" duration-ms="5650" started-at="2019-02-13T16:59:24Z" data-provider="TD" finished-at="2019-02-13T16:59:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sumit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pandey]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testGooglePageTitle()[pri:0, instance:module7.GridExampleTest@36b4cef0]" name="testGooglePageTitle" duration-ms="8860" started-at="2019-02-11T15:46:50Z" finished-at="2019-02-11T15:46:59Z">
+        </test-method> <!-- TestAUT -->
+        <test-method status="PASS" signature="TestAUT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT@44c8afef]" name="TestAUT" duration-ms="5659" started-at="2019-02-13T16:59:30Z" data-provider="TD" finished-at="2019-02-13T16:59:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[James]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Desuza]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGooglePageTitle -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:module7.GridExampleTest@36b4cef0]" name="closeBrowser" is-config="true" duration-ms="2297" started-at="2019-02-11T15:46:59Z" finished-at="2019-02-11T15:47:01Z">
+        </test-method> <!-- TestAUT -->
+        <test-method status="PASS" signature="TestAUT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT@44c8afef]" name="TestAUT" duration-ms="5612" started-at="2019-02-13T16:59:36Z" data-provider="TD" finished-at="2019-02-13T16:59:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rohit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Joshi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- module7.GridExampleTest -->
-    </test> <!-- TestNG Grid -->
-  </suite> <!-- Main Test Suite -->
+        </test-method> <!-- TestAUT -->
+        <test-method status="PASS" signature="TestAUT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT@44c8afef]" name="TestAUT" duration-ms="5573" started-at="2019-02-13T16:59:41Z" data-provider="TD" finished-at="2019-02-13T16:59:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jain]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amit]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gujrat]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAUT -->
+        <test-method status="PASS" signature="TestAUT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT@44c8afef]" name="TestAUT" duration-ms="5592" started-at="2019-02-13T16:59:47Z" data-provider="TD" finished-at="2019-02-13T16:59:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Joseph]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sam]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Goa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAUT -->
+        <test-method status="PASS" signature="TestAUT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT@44c8afef]" name="TestAUT" duration-ms="5882" started-at="2019-02-13T16:59:53Z" data-provider="TD" finished-at="2019-02-13T16:59:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pandey]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sumit]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAUT -->
+        <test-method status="PASS" signature="TestAUT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT@44c8afef]" name="TestAUT" duration-ms="5832" started-at="2019-02-13T16:59:58Z" data-provider="TD" finished-at="2019-02-13T17:00:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Desuza]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[James]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAUT -->
+        <test-method status="PASS" signature="TestAUT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT@44c8afef]" name="TestAUT" duration-ms="5842" started-at="2019-02-13T17:00:04Z" data-provider="TD" finished-at="2019-02-13T17:00:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Joshi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rohit]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAUT -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:module9.DDT@44c8afef]" name="CloseBrowser" is-config="true" duration-ms="284" started-at="2019-02-13T17:00:10Z" finished-at="2019-02-13T17:00:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- module9.DDT -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
