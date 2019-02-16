@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="67160" started-at="2019-02-13T16:59:03Z" finished-at="2019-02-13T17:00:10Z">
+  <suite name="Default suite" duration-ms="70468" started-at="2019-02-15T17:05:57Z" finished-at="2019-02-15T17:07:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="67160" started-at="2019-02-13T16:59:03Z" finished-at="2019-02-13T17:00:10Z">
+    <test name="Default test" duration-ms="70468" started-at="2019-02-15T17:05:57Z" finished-at="2019-02-15T17:07:07Z">
       <class name="module9.DDT">
-        <test-method status="PASS" signature="OpenApp()[pri:0, instance:module9.DDT@44c8afef]" name="OpenApp" is-config="true" duration-ms="9196" started-at="2019-02-13T16:59:03Z" finished-at="2019-02-13T16:59:12Z">
+        <test-method status="PASS" signature="OpenApp()[pri:0, instance:module9.DDT@44c8afef]" name="OpenApp" is-config="true" duration-ms="10618" started-at="2019-02-15T17:05:57Z" finished-at="2019-02-15T17:06:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenApp -->
-        <test-method status="PASS" signature="TestAUT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT@44c8afef]" name="TestAUT" duration-ms="5852" started-at="2019-02-13T16:59:13Z" data-provider="TD" finished-at="2019-02-13T16:59:19Z">
+        <test-method status="PASS" signature="TestAUT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT@44c8afef]" name="TestAUT" duration-ms="5974" started-at="2019-02-15T17:06:09Z" data-provider="TD" finished-at="2019-02-15T17:06:15Z">
           <params>
             <param index="0">
               <value>
@@ -32,7 +32,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestAUT -->
-        <test-method status="PASS" signature="TestAUT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT@44c8afef]" name="TestAUT" duration-ms="5618" started-at="2019-02-13T16:59:19Z" data-provider="TD" finished-at="2019-02-13T16:59:24Z">
+        <test-method status="PASS" signature="TestAUT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT@44c8afef]" name="TestAUT" duration-ms="6026" started-at="2019-02-15T17:06:15Z" data-provider="TD" finished-at="2019-02-15T17:06:21Z">
           <params>
             <param index="0">
               <value>
@@ -53,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestAUT -->
-        <test-method status="PASS" signature="TestAUT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT@44c8afef]" name="TestAUT" duration-ms="5650" started-at="2019-02-13T16:59:24Z" data-provider="TD" finished-at="2019-02-13T16:59:30Z">
+        <test-method status="PASS" signature="TestAUT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT@44c8afef]" name="TestAUT" duration-ms="5609" started-at="2019-02-15T17:06:21Z" data-provider="TD" finished-at="2019-02-15T17:06:26Z">
           <params>
             <param index="0">
               <value>
@@ -74,7 +74,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestAUT -->
-        <test-method status="PASS" signature="TestAUT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT@44c8afef]" name="TestAUT" duration-ms="5659" started-at="2019-02-13T16:59:30Z" data-provider="TD" finished-at="2019-02-13T16:59:36Z">
+        <test-method status="PASS" signature="TestAUT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT@44c8afef]" name="TestAUT" duration-ms="5635" started-at="2019-02-15T17:06:26Z" data-provider="TD" finished-at="2019-02-15T17:06:32Z">
           <params>
             <param index="0">
               <value>
@@ -95,7 +95,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestAUT -->
-        <test-method status="PASS" signature="TestAUT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT@44c8afef]" name="TestAUT" duration-ms="5612" started-at="2019-02-13T16:59:36Z" data-provider="TD" finished-at="2019-02-13T16:59:41Z">
+        <test-method status="PASS" signature="TestAUT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT@44c8afef]" name="TestAUT" duration-ms="5566" started-at="2019-02-15T17:06:32Z" data-provider="TD" finished-at="2019-02-15T17:06:37Z">
           <params>
             <param index="0">
               <value>
@@ -116,7 +116,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestAUT -->
-        <test-method status="PASS" signature="TestAUT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT@44c8afef]" name="TestAUT" duration-ms="5573" started-at="2019-02-13T16:59:41Z" data-provider="TD" finished-at="2019-02-13T16:59:47Z">
+        <test-method status="PASS" signature="TestAUT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT@44c8afef]" name="TestAUT" duration-ms="5587" started-at="2019-02-15T17:06:37Z" data-provider="TD" finished-at="2019-02-15T17:06:43Z">
           <params>
             <param index="0">
               <value>
@@ -137,7 +137,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestAUT -->
-        <test-method status="PASS" signature="TestAUT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT@44c8afef]" name="TestAUT" duration-ms="5592" started-at="2019-02-13T16:59:47Z" data-provider="TD" finished-at="2019-02-13T16:59:53Z">
+        <test-method status="PASS" signature="TestAUT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT@44c8afef]" name="TestAUT" duration-ms="5659" started-at="2019-02-15T17:06:43Z" data-provider="TD" finished-at="2019-02-15T17:06:49Z">
           <params>
             <param index="0">
               <value>
@@ -158,7 +158,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestAUT -->
-        <test-method status="PASS" signature="TestAUT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT@44c8afef]" name="TestAUT" duration-ms="5882" started-at="2019-02-13T16:59:53Z" data-provider="TD" finished-at="2019-02-13T16:59:58Z">
+        <test-method status="PASS" signature="TestAUT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT@44c8afef]" name="TestAUT" duration-ms="6180" started-at="2019-02-15T17:06:49Z" data-provider="TD" finished-at="2019-02-15T17:06:55Z">
           <params>
             <param index="0">
               <value>
@@ -179,7 +179,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestAUT -->
-        <test-method status="PASS" signature="TestAUT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT@44c8afef]" name="TestAUT" duration-ms="5832" started-at="2019-02-13T16:59:58Z" data-provider="TD" finished-at="2019-02-13T17:00:04Z">
+        <test-method status="PASS" signature="TestAUT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT@44c8afef]" name="TestAUT" duration-ms="5720" started-at="2019-02-15T17:06:55Z" data-provider="TD" finished-at="2019-02-15T17:07:01Z">
           <params>
             <param index="0">
               <value>
@@ -200,7 +200,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestAUT -->
-        <test-method status="PASS" signature="TestAUT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT@44c8afef]" name="TestAUT" duration-ms="5842" started-at="2019-02-13T17:00:04Z" data-provider="TD" finished-at="2019-02-13T17:00:10Z">
+        <test-method status="PASS" signature="TestAUT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT@44c8afef]" name="TestAUT" duration-ms="6257" started-at="2019-02-15T17:07:01Z" data-provider="TD" finished-at="2019-02-15T17:07:07Z">
           <params>
             <param index="0">
               <value>
@@ -221,7 +221,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestAUT -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:module9.DDT@44c8afef]" name="CloseBrowser" is-config="true" duration-ms="284" started-at="2019-02-13T17:00:10Z" finished-at="2019-02-13T17:00:10Z">
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:module9.DDT@44c8afef]" name="CloseBrowser" is-config="true" duration-ms="474" started-at="2019-02-15T17:07:07Z" finished-at="2019-02-15T17:07:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
