@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="module6.Dependency">
+      <class name="Extra.tabss">
         <methods>
-          <include name="Logout"/>
-          <include name="Login"/>
-          <include name="OpenApp"/>
+          <include name="openSameUrlInMultipleTab"/>
         </methods>
-      </class> <!-- module6.Dependency -->
+      </class> <!-- Extra.tabss -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

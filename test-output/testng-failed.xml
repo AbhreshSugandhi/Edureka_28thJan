@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Main Test Suite]">
-  <test thread-count="5" name="TestNG Grid(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="module7.GridExampleTest">
+      <class name="Extra.tabss">
         <methods>
-          <include name="closeBrowser"/>
-          <include name="testGooglePageTitle"/>
-          <include name="setUp"/>
+          <include name="openSameUrlInMultipleTab"/>
         </methods>
-      </class> <!-- module7.GridExampleTest -->
+      </class> <!-- Extra.tabss -->
     </classes>
-  </test> <!-- TestNG Grid(failed) -->
-</suite> <!-- Failed suite [Main Test Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
