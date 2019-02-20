@@ -18,9 +18,6 @@ public class AutoIT {
 		driver.findElement(By.id("photo")).click();
 		
 		Runtime.getRuntime().exec("E:\\hdd\\Training\\Programs\\AutoIT\\Edureka_28thJan.exe");
-		
-		
-		
 	}
 
 }
