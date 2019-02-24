@@ -6,5 +6,5 @@ You guys can join this whatsapp group for further comminucation and help to each
 
 https://chat.whatsapp.com/CcivxOQ1RskHAEiDTNMUDK
 
-Further to thiis I am also adding some additional material to this project so that you can download and have a look at that for more and better understanding.
-
+Further to this I am also adding some additional material inside your src/Extra folder within this project so that you can download and have a look at that for more and better understanding.
+Note: Pls read the readme file before processing!
