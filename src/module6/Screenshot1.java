@@ -21,13 +21,13 @@ public class Screenshot1 {
             driver.get("http://google.co.in");
             driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
             
-            driver.findElement(By.xpath("//*[@name='q']")).sendKeys("test");
+            driver.findElement(By.xpath("//*[@name='qaaa']")).sendKeys("test");
             System.out.println("Entered data in textfield");    
         }   
         catch (Exception e)
         {  
         	File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);  
-        	FileUtils.copyFile(scrFile, new File("E:\\Abhresh\\EdurekaPrograms\\Edureka_28th_Jan\\Screenshot\\screenshot"+System.currentTimeMillis()+".png"));
+        	FileUtils.copyFile(scrFile, new File("E:\\Abhresh\\EdurekaPrograms\\Edureka_26th_Jan\\Screenshot\\screenshot"+System.currentTimeMillis()+".jpg"));
             System.out.println("Screenshot is captured for failed testcase");
         }  
     }  
